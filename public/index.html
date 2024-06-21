@@ -29,8 +29,8 @@
 <body>
     <div id="uploadForm">
         <h2>Upload de Arquivos</h2>
-        <form id="fileUploadForm" enctype="multipart/form-data">
-            <input type="file" id="files" name="files" multiple required>
+        <form id="fileUploadForm" action="/proccess_upload.php" method="post" enctype="multipart/form-data">
+            <input type="file" id="files" name="files[]" multiple required>
             <button type="submit">Enviar</button>
         </form>
         <div id="results"></div>
@@ -40,14 +40,8 @@
         document.getElementById('fileUploadForm').addEventListener('submit', async (event) => {
             event.preventDefault();
 
-            const formData = new FormData();
-            const files = document.getElementById('files').files;
-
-            for (const file of files) {
-                formData.append('files', file);
-            }
-
-            const response = await fetch('/upload', {
+            const formData = new FormData(event.target);
+            const response = await fetch('/proccess_upload.php', {
                 method: 'POST',
                 body: formData
             });
