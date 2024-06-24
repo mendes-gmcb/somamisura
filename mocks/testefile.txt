@@ -1,0 +1,32 @@
+Misura------------------------
+#Data                        #17-06-2024
+#Ora                         #15-07-13
+[Unita' di misura            ]M² 
+[Misura in unita' elementari-] 7860
+[Misura in unita' di misura -] 2.11
+[Commento                    ]CEVAHIR
+[Intestazione                ]CURTUME TROPICAL
+[Scelta manuale              ]2
+[Taglia di misura            ]
+[Provenienza                 ]Italia
+[Spessore--------------------];;
+[Selezione                   ]ss1
+[Combinazione                ]2
+[Combinazione Numerica       ] 2
+[Cartone T1 Numero-----------] 1
+Misura------------------------
+#Data                        #17-06-2024
+#Ora                         #15-07-22
+[Unita' di misura            ]M² 
+[Misura in unita' elementari-] 7925
+[Misura in unita' di misura -] 2.12
+[Commento                    ]CEVAHIR
+[Intestazione                ]CURTUME TROPICAL
+[Scelta manuale              ]2
+[Taglia di misura            ]
+[Provenienza                 ]Italia
+[Spessore--------------------];;
+[Selezione                   ]ss1
+[Combinazione                ]2
+[Combinazione Numerica       ] 2
+[Cartone T1 Numero-----------] 1
